@@ -13,15 +13,22 @@ const featuredProjects: Project[] = [
     id: 1,
     title: "VisualRAG – Multimodal Research Assistant",
     description: "Built a multimodal RAG pipeline over 23 computer vision papers using LangChain, ChromaDB, and Llama 3.1 (Groq), achieving 8/10 retrieval accuracy. Implemented BLIP-2 image captioning for image-to-paper retrieval with a Streamlit chat interface.",
-    link: "https://github.com/nasrinrahimizade",
+    link: "https://github.com/nasrinrahimizade/VisualRAG",
     image: "/projects/project-1.png",
   },
   {
     id: 2,
+    title: "Statistical AI Agent for Dataset Analysis",
+    description: "Engineered a LLaMA-based AI agent to process multi-sensor datasets, compute statistical features, and identify discriminative ones with ML models, reducing manual analysis time by 60%.",
+    link: "https://github.com/nasrinrahimizade/Statistical-AI-Agent",
+    image: "/projects/project-2.png",
+  },
+  {
+    id: 3,
     title: "Real-time Anomaly Detection in Vision Systems",
     description: "Implemented and optimized semantic segmentation models (ERFNet, AlexNet, ENet), boosting accuracy by 21% through architectural improvements and robustness tuning under varying road conditions.",
-    link: "https://github.com/nasrinrahimizade",
-    image: "/projects/project-2.png",
+    link: "https://github.com/nasrinrahimizade/AnomalySegmentation",
+    image: "/projects/project-1.png",
   },
 ];
 

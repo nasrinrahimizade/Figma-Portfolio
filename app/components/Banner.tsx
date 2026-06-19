@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function Banner(): React.JSX.Element {
-  const texts = ["AI Engineer", "Computer Vision Specialist", "LLM Systems Developer"];  const [currentTextIndex, setCurrentTextIndex] = useState(0);
+  const texts = ["AI Engineer", "a Computer Vision Specialist", "an LLM Systems Developer"];  const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [typingSpeed, setTypingSpeed] = useState(100);
@@ -133,7 +133,7 @@ export default function Banner(): React.JSX.Element {
         </div>
         <div className="space-y-3 pt-15 text-center lg:text-left">
           <p className="text-5xl text-white font-bold">
-            I&apos;m an {displayedText}
+            I&apos;m {displayedText}
             <span className="animate-pulse">|</span>
           </p>
           <p className="text-lg lg:text-xl text-white/90 tracking-wide flex flex-wrap items-center justify-center lg:justify-start gap-2">
