@@ -14,21 +14,21 @@ const featuredProjects: Project[] = [
     title: "VisualRAG – Multimodal Research Assistant",
     description: "Built a multimodal RAG pipeline over 23 computer vision papers using LangChain, ChromaDB, and Llama 3.1 (Groq), achieving 8/10 retrieval accuracy. Implemented BLIP-2 image captioning for image-to-paper retrieval with a Streamlit chat interface.",
     link: "https://github.com/nasrinrahimizade/VisualRAG",
-    image: "/projects/project-1.png",
+    image: "/projects/image-1.png",
   },
   {
     id: 2,
     title: "Statistical AI Agent for Dataset Analysis",
     description: "Engineered a LLaMA-based AI agent to process multi-sensor datasets, compute statistical features, and identify discriminative ones with ML models, reducing manual analysis time by 60%.",
     link: "https://github.com/nasrinrahimizade/Statistical-AI-Agent",
-    image: "/projects/project-2.png",
+    image: "/projects/ai-agent.png",
   },
   {
     id: 3,
     title: "Real-time Anomaly Detection in Vision Systems",
     description: "Implemented and optimized semantic segmentation models (ERFNet, AlexNet, ENet), boosting accuracy by 21% through architectural improvements and robustness tuning under varying road conditions.",
     link: "https://github.com/nasrinrahimizade/AnomalySegmentation",
-    image: "/projects/project-1.png",
+    image: "/projects/anomaly.png",
   },
 ];
 
@@ -93,14 +93,14 @@ export default function Projects(): React.JSX.Element {
 
                 {/* Image Content */}
                 <div className={`${isEven ? "lg:col-start-1 lg:row-start-1" : ""}`}>
-                  <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-slate-950 p-2 lg:p-3 shadow-2xl">
-                    <div className="relative w-full h-full rounded-lg overflow-hidden">
+                  <div className="relative w-full rounded-2xl overflow-hidden bg-slate-950 p-2 lg:p-3 shadow-2xl">
+                    <div className="relative w-full h-[350px] rounded-lg overflow-hidden">
                       <Image
                         src={project.image}
                         alt={project.title}
                         fill
                         sizes="(max-width: 1024px) 100vw, 50vw"
-                        className="object-cover"
+                        className="object-contain rounded-lg"
                       />
                     </div>
                   </div>

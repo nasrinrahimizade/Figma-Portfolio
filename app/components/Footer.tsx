@@ -24,6 +24,23 @@ export default function Footer(): React.JSX.Element {
         {/* Social Media Icons */}
         <div className="flex justify-center gap-6 mt-12">
           <Link
+            href="mailto:n.rahimizadeh1999@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
+            aria-label="Email"
+          >
+            <svg
+              className="w-5 h-5 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </Link>
+          <Link
             href="https://github.com/nasrinrahimizade"
             target="_blank"
             rel="noopener noreferrer"

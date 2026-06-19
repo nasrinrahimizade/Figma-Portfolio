@@ -7,7 +7,7 @@ export default function Education(): React.JSX.Element {
       location: "Torino, Italy",
       period: "Sep 2022 – Oct 2025",
       thesis: "3D perception of deformable objects in robotic applications",
-      highlights: ["Fully Funded MSc Thesis – EUROBIN Project", "Direct M.Sc. Admission based on academic excellence"],
+      highlights: ["Fully Funded MSc Thesis – EUROBIN Project"],
     },
     {
       degree: "Bachelor of Science",
