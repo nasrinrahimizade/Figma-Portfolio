@@ -11,16 +11,16 @@ interface Project {
 const featuredProjects: Project[] = [
   {
     id: 1,
-    title: "NeuraWeb – Futuristic AI Website Landing Design",
-    description: "A sleek, dark-themed AI-powered landing page concept built in Figma. Designed for modern startups and futuristic digital products, it features glowing neon visuals, immersive UI, and a dynamic tone. The design encapsulates the cutting-edge possibilities of AI and tech, offering a glimpse into the future of online experiences for tech-forward companies.",
-    link: "https://www.figma.com/community/file/1441377868897233703/ai-website-landing-design",
+    title: "VisualRAG – Multimodal Research Assistant",
+    description: "Built a multimodal RAG pipeline over 23 computer vision papers using LangChain, ChromaDB, and Llama 3.1 (Groq), achieving 8/10 retrieval accuracy. Implemented BLIP-2 image captioning for image-to-paper retrieval with a Streamlit chat interface.",
+    link: "https://github.com/nasrinrahimizade",
     image: "/projects/project-1.png",
   },
   {
     id: 2,
-    title: "Apple Vision Pro – HR Software Design",
-    description: "A futuristic HR software concept designed for Apple Vision Pro, built in Figma to reimagine attendance, leave tracking, and employee experience - all in one immersive interface.",
-   link: "https://www.figma.com/community/file/1371824014208363481/apple-vision-pro-hr-software-design",
+    title: "Real-time Anomaly Detection in Vision Systems",
+    description: "Implemented and optimized semantic segmentation models (ERFNet, AlexNet, ENet), boosting accuracy by 21% through architectural improvements and robustness tuning under varying road conditions.",
+    link: "https://github.com/nasrinrahimizade",
     image: "/projects/project-2.png",
   },
 ];
