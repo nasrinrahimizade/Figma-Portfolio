@@ -11,27 +11,21 @@ interface ExperienceCard {
 const experienceCards: ExperienceCard[] = [
   {
     id: 1,
-    title: "WebHR - HR Management App",
-    description: "WebHR automates all of your company's HR processes such as Recruitment, Onboarding, Payroll, Time & Attendance, Leaves & PTO, Performance, and much more.",
+    title: "AI Researcher – Vandal Lab, Politecnico di Torino",
+    description: "Engineered embodied sensing pipelines integrating multi-view RGB-D cameras with CoTracker and HaMeR, enabling physics-aware 3D mesh reconstruction of hands and deformable objects during manipulation tasks.",
     icon: "/cards/card-1.png",
   },
   {
     id: 2,
-    title: "WebHR Kiosk - Time Clock Kiosk",
-    description: "WebHR Kiosk is a time clock kiosk that allows you to clock in and out of your work. It is a simple and easy to use app that allows you to clock in and out of your work.",
+    title: "AI & Computer Vision Intern – EUROBIN Project",
+    description: "Architected end-to-end 3D perception pipelines combining classical geometry with deep learning. Achieved 81% precision in object detection and IoU 0.86–0.91 for segmentation using YOLO and Detectron2.",
     icon: "/cards/card-2.png",
   },
   {
     id: 3,
-    title: "Somezing - AI-Powered Agents",
-    description: "Somezing is a AI-Powered Agents to Automate Your Workflows. It is a simple and easy to use app that allows you to automate your workflows.",
+    title: "Teaching Assistant – Human-Computer Interaction",
+    description: "Mentored 80+ students across weekly HCI lab sessions at Politecnico di Torino, guiding hands-on prototyping and interface design tasks. Increased project completion rates by 12%.",
     icon: "/cards/card-3.png",
-  },
-  {
-    id: 4,
-    title: "FileIT - File Sharing App",
-    description: "FileIT is a file sharing app that allows you to share files with your friends and family. It is a simple and easy to use app that allows you to share files with your friends and family.",
-    icon: "/cards/card-4.png",
   },
 ];
 
