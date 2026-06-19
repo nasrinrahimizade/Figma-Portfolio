@@ -27,6 +27,7 @@ const experienceCards: ExperienceCard[] = [
     description: "Mentored 80+ students across weekly HCI lab sessions at Politecnico di Torino, guiding hands-on prototyping and interface design tasks. Increased project completion rates by 12%.",
     icon: "/cards/card-3.png",
   },
+ 
 ];
 
 export default function Experience(): React.JSX.Element {
