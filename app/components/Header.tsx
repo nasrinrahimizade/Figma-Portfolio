@@ -34,7 +34,7 @@ export default function Header(): React.JSX.Element {
                 href="#lab" 
                 className="text-white hover:text-purple-400 transition-colors text-base font-normal"
               >
-                Lab
+                Projects
               </Link>
             </li>
           </ul>
