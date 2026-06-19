@@ -24,7 +24,7 @@ export default function Footer(): React.JSX.Element {
         {/* Social Media Icons */}
         <div className="flex justify-center gap-6 mt-12">
           <Link
-            href="https://www.instagram.com/ibii.memon/"
+            href="https://www.linkedin.com/in/nasrin-rahimizadeh"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
@@ -39,7 +39,7 @@ export default function Footer(): React.JSX.Element {
             />
           </Link>
           <Link
-            href="https://github.com/ibrahimmemonn"
+            href="https://github.com/nasrinrahimizade"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
@@ -54,7 +54,7 @@ export default function Footer(): React.JSX.Element {
             </svg>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/ibrahimmemonn/"
+            href="https://www.linkedin.com/in/nasrin-rahimizadeh"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"

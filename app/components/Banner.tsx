@@ -75,7 +75,7 @@ export default function Banner(): React.JSX.Element {
               </div>
               <Image
                 src="/assets/me-removebg-preview.png"
-                alt="Ibrahim Memon - Software Engineer and Designer"
+                alt="Nasrin Rahimizadeh - AI Engineer"
                 width={200}
                 height={200}
                 className="max-w-xs absolute hidden lg:block"
@@ -84,7 +84,7 @@ export default function Banner(): React.JSX.Element {
               />
               <Image
                 src="/assets/me-glow.png"
-                alt="Ibrahim Memon - Software Engineer and Designer"
+                alt="Nasrin Rahimizadeh - AI Engineer"
                 width={300}
                 height={300}
                 className="max-w-xs hidden lg:block"
@@ -133,7 +133,7 @@ export default function Banner(): React.JSX.Element {
         </div>
         <div className="space-y-3 pt-15 text-center lg:text-left">
           <p className="text-5xl text-white font-bold">
-            I&apos;m a {displayedText}
+            I&apos;m an {displayedText}
             <span className="animate-pulse">|</span>
           </p>
           <p className="text-lg lg:text-xl text-white/90 tracking-wide flex flex-wrap items-center justify-center lg:justify-start gap-2">

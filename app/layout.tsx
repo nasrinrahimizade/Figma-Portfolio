@@ -12,34 +12,34 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-  description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
+  title: "Nasrin Rahimizadeh - AI Engineer | Computer Vision & LLM Systems",
+  description: "AI Engineer and Researcher specializing in Computer Vision, Multimodal AI and LLM Systems. Nearly 2 years of industry and research experience at Politecnico di Torino.",
   keywords: [
-    "Ibrahim Memon",
-    "Software Engineer",
-    "UI/UX Designer",
-    "Frontend Developer",
-    "React Developer",
-    "Next.js Developer",
-    "Web Designer",
-    "WebHR Engineer",
+    "Nasrin Rahimizadeh",
+    "AI Engineer",
+    "Computer Vision",
+    "Multimodal AI",
+    "LLM Systems",
+    "Deep Learning",
+    "Python Developer",
+    "Politecnico di Torino",
     "Portfolio",
   ],
-  authors: [{ name: "Ibrahim Memon" }],
-  creator: "Ibrahim Memon",
-  publisher: "Ibrahim Memon",
+  authors: [{ name: "Nasrin Rahimizadeh" }],
+  creator: "Nasrin Rahimizadeh",
+  publisher: "Nasrin Rahimizadeh",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ibiimemon.com",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
-    siteName: "Ibrahim Memon Portfolio",
+    url: "https://nasrinrahimizadeh.vercel.app",
+    title: "Nasrin Rahimizadeh - AI Engineer | Computer Vision & LLM Systems",
+    description: "AI Engineer and Researcher specializing in Computer Vision, Multimodal AI and LLM Systems. Nearly 2 years of industry and research experience at Politecnico di Torino.",
+    siteName: "Nasrin Rahimizadeh Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
+    title: "Nasrin Rahimizadeh - AI Engineer | Computer Vision & LLM Systems",
+    description: "AI Engineer and Researcher specializing in Computer Vision, Multimodal AI and LLM Systems.",
   },
   robots: {
     index: true,
@@ -68,7 +68,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://ibiimemon.com" />
+        <link rel="canonical" href="https://nasrinrahimizadeh.vercel.app" />
       </head>
       <body
         className={`${poppins.variable} font-sans antialiased`}
